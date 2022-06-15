@@ -5,7 +5,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # mongodb
-client = MongoClient('mongodb+srv://test:sparta@cluster0.plhqe82.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://사용자이름:비밀번호@DB이름.plhqe82.mongodb.net/?retryWrites=true&w=majority')
 db = client.dbsparta
 
 
